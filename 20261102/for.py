@@ -18,7 +18,14 @@
 #     print(i)
 
 #案例 计算1-100的和
-sum = 0
-for i in range(1, 101, 1):
-    sum = sum + i
-print("1-100的和为：", sum)
+# sum = 0
+# for i in range(1, 101, 1):
+#     sum = sum + i
+# print("1-100的和为：", sum)
+
+#案例 用for循环计算阶乘
+result = 1
+n = int(input("请输入一个正整数"))
+for i in range(1, n + 1):
+    result = result * i
+print("阶乘为：", result)
